@@ -592,6 +592,16 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 893px) {
+  .header-links {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .headers-link {
+    margin-left: auto;
+  }
+}
 @media (max-width: 860px) {
   .main-content {
     padding-top: 120px;
@@ -690,7 +700,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 530px) {
+@media (max-width: 652px) {
   .shewron-container {
     display: block;
     transition: all 0.5s ease;
@@ -702,8 +712,9 @@ a {
     flex-direction: column;
     gap: 20px 0;
     position: absolute;
-    right: 10px;
-    top: 90px;
+    align-items: center;
+    right: 0px;
+    top: 94px;
     display: none;
   }
   .rotation {
@@ -713,6 +724,11 @@ a {
   .show {
     display: flex;
   }
+  .headers-link {
+    margin-left: 0;
+  }
+}
+@media (max-width: 530px) {
   .fifty-and-fify {
     flex-direction: column;
     align-items: center;
@@ -755,6 +771,18 @@ a {
     margin-top: -35px;
     color: white;
   }
+  .section-descripton-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 470px) {
+  .main-description-buttons {
+    gap: 10px;
+  }
+  .header-link {
+    font-size: 18px;
+    padding: 15px 15px;
+  }
 }
 @media (max-width: 360px) {
   .swiper {
@@ -762,5 +790,15 @@ a {
   }
   .next {
     margin-top: 20px;
+  }
+  .main-description-buttons {
+    gap: 5px;
+  }
+  .header-link {
+    font-size: 18px;
+    padding: 15px 10px;
+  }
+  .section-descripton-title {
+    font-size: 32px;
   }
 }
