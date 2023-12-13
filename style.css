@@ -143,7 +143,7 @@ a {
   color: rgb(216, 202, 202);
 }
 .main-image {
-  padding: 20px;
+  padding: 20px 0;
   height: 100%;
   width: 90%;
 }
