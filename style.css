@@ -143,7 +143,7 @@ a {
   color: rgb(216, 202, 202);
 }
 .main-image {
-  padding-top: 20px;
+  padding: 20px;
   height: 100%;
   width: 90%;
 }
@@ -783,6 +783,9 @@ a {
     font-size: 18px;
     padding: 15px 15px;
   }
+  .main-title {
+    font-size: 46px;
+  }
 }
 @media (max-width: 360px) {
   .swiper {
@@ -800,5 +803,8 @@ a {
   }
   .section-descripton-title {
     font-size: 32px;
+  }
+  .main-title {
+    font-size: 42px;
   }
 }
