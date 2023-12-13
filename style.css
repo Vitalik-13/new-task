@@ -653,6 +653,9 @@ a {
     padding-bottom: 0;
     margin-bottom: 0;
   }
+  .main-image {
+    width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .result-center {
